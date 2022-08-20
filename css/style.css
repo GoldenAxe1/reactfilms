@@ -1,0 +1,167 @@
+body {
+  background-image: url(../images/backround.png);
+  font-family: 'Roboto', sans-serif;
+}
+cursor {
+    url('');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  background-color: rgba(34, 34, 34, 0.84);
+  padding: 15px 0 15px 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img__logo {
+  height: 34px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__title {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #1c93e3;
+  color: white;
+  border-radius: 17px;
+  text-transform: uppercase;
+  border: none;
+  padding: 9px 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* main start */
+
+.main {
+  padding-top: 150px;
+  border-radius: 10px;
+}
+
+.main__container {
+  max-width: 500px;
+  margin: 0 auto;
+  height: 460px;
+  border-radius: 10px;
+}
+
+.main__photo {
+  height: 34px;
+  border-radius: 18px;
+  margin-right: 15px;
+}
+
+.main__telegram {
+  height: 34px;
+}
+
+.main__logo {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(34, 34, 34, 0.84);
+  padding: 5px;
+  border-radius: 10px 0px;
+}
+
+.main__title {
+  display: flex;
+  align-items: center;
+}
+
+.title__main {
+  color: #64b5ef;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.main__video {
+  background-color: black;
+  height: 200px;
+}
+
+.title-block-p {
+  color: white;
+}
+
+.main__title-block {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.title-block-p {
+  margin-bottom: 20px;
+}
+
+.block-p {
+  border: 1px solid #64b5ef;
+  color: white;
+  background-color: black;
+  transition: all 0.3s;
+  padding: 10px 10px 10px 10px;
+  border-color: #fff;
+  border-radius: 20px;
+}
+
+.block-p:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: gray;
+}
+
+.text__main {
+  background-color: rgba(34, 34, 34, 0.84);
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+  padding-bottom: 20px;
+}
+.main__info {
+  color: white;
+  font-size: 16px;
+  line-height: 21px;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+.text-btn {
+  border: 1px solid #64b5ef;
+  color: white;
+  background-color: rgb(50, 138, 197);
+  transition: all 0.3s;
+  padding: 10px 10px 10px 10px;
+  border-color: #fff;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.text-btn:hover {
+  border-color: #fff;
+  background-color: rgb(41, 159, 238);
+  color: rgb(255, 255, 255);
+}
